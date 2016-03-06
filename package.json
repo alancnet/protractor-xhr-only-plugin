@@ -1,0 +1,16 @@
+{
+  "name": "protractor-http-only-plugin",
+  "version": "1.0.0",
+  "description": "A plugin to make Protractor wait for XHR calls and nothing else. ",
+  "main": "index.js",
+  "devDependencies": {
+    "httpster": "^1.0.1",
+    "protractor": "^2.5.1"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "q": "^1.4.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

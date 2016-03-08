@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html ng-app="app">
+<head>
+  <script src="./angular.min.js"></script>
+  <script src="./app.js"></script>
+  <link href="./bootstrap.css" rel="stylesheet">
+</head>
+<body class="ng-cloak">
+  <div ng-controller="ExchangeCtrl" class="container">
+    <h3>XHR only demo</h3>
+    <div>
+      <h3>Fetch exchange rates</h3>
+      <button id="load-button" ng-click="loadExchangeRate()">Load</button>
+      <div id="load-status">{{loadStatus}}</div>
+    </div>
+  </div>
+</body>
+</html>

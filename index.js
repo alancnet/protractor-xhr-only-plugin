@@ -48,13 +48,11 @@ function setup() {
       enabled = true;
       exports.skipAngularStability = true;
     } else {
-      exports.skipAngularStability = false;
       enabled = false;
+      exports.skipAngularStability = false;
     }
   };
 }
-
-function teardown() {}
 
 function waitForPromise() {
   if (enabled) {
@@ -74,6 +72,5 @@ function waitForPromise() {
 }
 
 exports.setup = setup;
-exports.teardown = teardown;
 exports.waitForPromise = waitForPromise;
 exports.skipAngularStability = false;

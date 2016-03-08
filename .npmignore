@@ -1,0 +1,4 @@
+testapp/
+spec/
+.npmignore
+npm-debug.log

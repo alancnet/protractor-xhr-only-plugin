@@ -1,6 +1,6 @@
 {
   "name": "protractor-xhr-only-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin to make Protractor wait for XHR calls and nothing else. ",
   "keywords": [
     "angular",

@@ -2,6 +2,17 @@
   "name": "protractor-xhr-only-plugin",
   "version": "1.0.0",
   "description": "A plugin to make Protractor wait for XHR calls and nothing else. ",
+  "keywords": [
+    "angular",
+    "protractor",
+    "protractor-plugin",
+    "test",
+    "testing",
+    "webdriver",
+    "webdriverjs",
+    "selenium",
+    "xhr"
+  ],
   "main": "index.js",
   "scripts": {
     "start": "node testapp/expressserver.js",
@@ -12,6 +23,10 @@
     "express": "~3.4.0",
     "protractor": "^2.5.1"
   },
-  "author": "",
-  "license": "MIT"
+  "author": "Michael Giambalvo <heathkit@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mgiambalvo/protractor-xhr-only-plugin.git"
+  }
 }

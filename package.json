@@ -21,7 +21,7 @@
   "devDependencies": {
     "clang-format": "^1.0.34",
     "express": "~3.4.0",
-    "protractor": "^2.5.1"
+    "protractor": "^3.2.2"
   },
   "author": "Michael Giambalvo <heathkit@gmail.com>",
   "license": "MIT",
